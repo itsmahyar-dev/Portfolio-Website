@@ -750,8 +750,34 @@ main {
     font-size: 10px;
   }
   
-  .movingText marquee {
-    padding: 0 5px;
+}
+/* Modern Marquee Replacement */
+.scrolling-content {
+  padding-left: 170px; /* keep same spacing */
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.scroll-text {
+  white-space: nowrap;
+  display: inline-block;
+  animation: scroll-left 15s linear infinite;
+}
+
+/* Pause on hover (same as old marquee) */
+.scrolling-content:hover .scroll-text {
+  animation-play-state: paused;
+}
+
+/* Animation */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
 /*-----------------------------------*\
