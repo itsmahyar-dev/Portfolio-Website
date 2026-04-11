@@ -1516,6 +1516,10 @@ p {
   color: firebrick;
 }
 
+.Dotnet{
+  color: lightsteelblue;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .skills-section {
