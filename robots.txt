@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vikaskoledev.vercel.app/sitemap.xml
