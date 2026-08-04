@@ -8,8 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--meta tag for google search-console -->
-  <meta name="google-site-verification" 
-    content="QZXnctAg_tfEGQ27r_Xiwvzmsywrm9CG6kiJ_kVa00o" />
+  <meta name="google-site-verification" content="QZXnctAg_tfEGQ27r_Xiwvzmsywrm9CG6kiJ_kVa00o" />
 
   <meta name="description"
     content="Vikas Kole - Full Stack Developer (MERN Stack) building high-performance websites, portfolios, and business solutions.">
@@ -157,7 +156,7 @@
 
 <body>
   <!-- Preloader with H1 -->
-  <div id="preloader">
+  <!-- <div id="preloader">
     <div class="loader-triangle-3">
       <svg id="triangle" width="50px" height="50px" viewBox="-3 -4 39 39">
         <polygon fill="transparent" stroke="#ffeb3b" stroke-width="2" points="16,0 32,32 0,32"></polygon>
@@ -165,7 +164,7 @@
     </div>
     <h1 class="preloader-text">Loading Portfolio...</h1>
   </div>
-  <!-- Preloader Script -->
+  <!-- Preloader Script --
   <script>
     const MIN_LOAD_TIME = 1200;
     const startTime = Date.now();
@@ -188,7 +187,7 @@
     if (document.readyState === 'complete') {
       hidePreloader();
     }
-  </script>
+  </script> -->
 
 
   <!--- #MAIN --->
@@ -352,6 +351,57 @@
             </div>
           </div>
         </section>
+
+        <!-- ===========================
+            Portfolio V2 Countdown
+        =========================== -->
+        <section class="launch-section">
+          <div class="launch-card">
+            <span class="launch-badge"> 🚀 COMING SOON..! </span>
+            <h2 class="launch-title"> Portfolio V2 </h2>
+            <p class="launch-description">
+              A completely redesigned portfolio experience is arriving with
+              modern UI/UX, faster performance, case studies, developer blogs,
+              better animations, and many exciting new features.
+            </p>
+            
+            <div class="countdown">
+              <div class="time-box">
+                <span id="days">00</span>
+                <small>Days</small>
+              </div>
+              <div class="time-box">
+                <span id="hours">00</span>
+                <small>Hours</small>
+              </div>
+              <div class="time-box">
+                <span id="minutes">00</span>
+                <small>Minutes</small>
+              </div>
+              <div class="time-box">
+                <span id="seconds">00</span>
+                <small>Seconds</small>
+              </div>
+            </div>
+
+            <div class="launch-footer">
+              🇮🇳 Launching on
+              <strong>15 August 2026</strong>
+              <br> Independence Day Special Edition
+            </div>
+            
+            <div class="launch-features">
+              <span>✨ New UI</span>
+              <span>⚡ Faster</span>
+              <span>📝 Blog</span>
+              <span>🎨 Better UX</span>
+              <span>📂 Case Studies</span>
+              <span>🚀 More Projects</span>
+            </div>
+          </div>
+        </section>
+
+
         <!-- New Program Launch -->
         <section class="about-text" style="margin-top:0;">
           <div class="viewall-section">
@@ -515,6 +565,7 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="./assets/js/script.js"></script>
   <script type="module" src="./assets/js/visitor-counter.js"></script>
+  <script type="module" src="./assets/js/countdown.js"></script>
 
   <!--- ionicons link --->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
