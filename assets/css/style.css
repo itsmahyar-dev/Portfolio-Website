@@ -812,7 +812,9 @@ Portfolio Launch
   width: 300px;
   height: 300px;
   background: radial-gradient(
-    circle, rgba(255, 211, 105, 0.18), transparent 70%
+    circle,
+    rgba(255, 211, 105, 0.18),
+    transparent 70%
   );
   top: -140px;
   right: -120px;
@@ -946,20 +948,20 @@ Portfolio Launch
   color: #111;
 }
 
-.launch-btn{
-display:inline-block;
-padding:14px 32px;
-background:#FFD369;
-color:#111;
-font-weight:700;
-border-radius:50px;
-text-decoration:none;
-transition:.3s;
+.launch-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background: #ffd369;
+  color: #111;
+  font-weight: 700;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-.launch-btn:hover{
-transform:translateY(-3px);
-box-shadow:0 10px 25px rgba(255,211,105,.35);
+.launch-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(255, 211, 105, 0.35);
 }
 
 @media (max-width: 768px) {
@@ -1325,6 +1327,10 @@ p {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+  transition: transform 0.3s ease;
+}
+.service-item:hover {
+  transform: translateY(-5px);
 }
 
 .service-item::before {
